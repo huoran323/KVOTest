@@ -1,0 +1,6 @@
+framework module Pods_KVO {
+  umbrella header "Pods-KVO-umbrella.h"
+
+  export *
+  module * { export * }
+}
