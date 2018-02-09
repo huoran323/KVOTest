@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185BE422202D45F700BA0FD0 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185BE421202D45F700BA0FD0 /* NavigationController.m */; };
+		185BE425202D46DF00BA0FD0 /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185BE424202D46DF00BA0FD0 /* BaseTableView.m */; };
+		185BE429202D4BCA00BA0FD0 /* CustomSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185BE428202D4BCA00BA0FD0 /* CustomSegmentView.m */; };
 		18F2449D20244F24001AA737 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2449C20244F24001AA737 /* AppDelegate.m */; };
 		18F244A020244F24001AA737 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2449F20244F24001AA737 /* ViewController.m */; };
 		18F244A320244F24001AA737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F244A120244F24001AA737 /* Main.storyboard */; };
@@ -17,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		185BE420202D45F700BA0FD0 /* NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		185BE421202D45F700BA0FD0 /* NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		185BE423202D46DF00BA0FD0 /* BaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		185BE424202D46DF00BA0FD0 /* BaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		185BE427202D4BCA00BA0FD0 /* CustomSegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomSegmentView.h; sourceTree = "<group>"; };
+		185BE428202D4BCA00BA0FD0 /* CustomSegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomSegmentView.m; sourceTree = "<group>"; };
 		18F2449820244F24001AA737 /* KVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F2449B20244F24001AA737 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18F2449C20244F24001AA737 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,6 +53,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		185BE41F202D45D000BA0FD0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				185BE420202D45F700BA0FD0 /* NavigationController.h */,
+				185BE421202D45F700BA0FD0 /* NavigationController.m */,
+				185BE423202D46DF00BA0FD0 /* BaseTableView.h */,
+				185BE424202D46DF00BA0FD0 /* BaseTableView.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		185BE426202D4BA500BA0FD0 /* CustomSegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				185BE427202D4BCA00BA0FD0 /* CustomSegmentView.h */,
+				185BE428202D4BCA00BA0FD0 /* CustomSegmentView.m */,
+			);
+			path = CustomSegmentView;
+			sourceTree = "<group>";
+		};
 		18F2448F20244F24001AA737 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +94,8 @@
 		18F2449A20244F24001AA737 /* KVO */ = {
 			isa = PBXGroup;
 			children = (
+				185BE426202D4BA500BA0FD0 /* CustomSegmentView */,
+				185BE41F202D45D000BA0FD0 /* Common */,
 				18F2449B20244F24001AA737 /* AppDelegate.h */,
 				18F2449C20244F24001AA737 /* AppDelegate.m */,
 				18F2449E20244F24001AA737 /* ViewController.h */,
@@ -206,10 +237,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-KVO/Pods-KVO-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KVOController/KVOController.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KVOController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -224,7 +257,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F244A020244F24001AA737 /* ViewController.m in Sources */,
+				185BE429202D4BCA00BA0FD0 /* CustomSegmentView.m in Sources */,
+				185BE422202D45F700BA0FD0 /* NavigationController.m in Sources */,
 				18F244AB20244F24001AA737 /* main.m in Sources */,
+				185BE425202D46DF00BA0FD0 /* BaseTableView.m in Sources */,
 				18F2449D20244F24001AA737 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

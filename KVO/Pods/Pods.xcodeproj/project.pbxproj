@@ -7,58 +7,135 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		094ED1211626E44658BCE20A562008C3 /* NSObject+FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9DEFB0F0EE441F9EE90AA1000F9D1E /* NSObject+FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		153F52868440EF561C761D3A929E8413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		16A56F7A6E2AFE504DEC2C768660B409 /* KVOController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C504C1B71AA82687D7FCB6BDB8B2412F /* KVOController-dummy.m */; };
-		1A61C910DACFCF8EB29281ED3DA0B81A /* FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = E23A75CD7D65F6D9CD9E19B4B86B55C2 /* FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E3E20ED69923AF65ED92CE43DC97BFB /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBF8D2B507DD62FAD8363D2D7E570B7 /* NSObject+FBKVOController.m */; };
-		5EF4005FEC65BC997748AB46617ADD3C /* KVOController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C560E8B081BFC4261588FDE18BD42C6 /* KVOController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75DDA6C4B1C2D744D9CD65A5ED42C54F /* KVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 288C2F84E2205FEFFA7FC9232B435D24 /* KVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90D2815FC55158FF28F894AE14D3E45A /* Pods-KVO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 955FF3BE0853CC8855C434D2663F9E96 /* Pods-KVO-dummy.m */; };
-		B4A3A6DA91ED346349AD3599BC080ECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F4B792C133C9298C27D82D40CACDA2F6 /* Pods-KVO-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71CC934B9937786DB5F7DD38717ADBBC /* Pods-KVO-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7A846EC48CD3B2E7BBE318B7C4CD754 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64854F8D3188E09775644070644AEBB0 /* FBKVOController.m */; };
+		04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FE3E034BDCDC8DC66183E4650A6F047 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BEDD03BB07282D0F8C03B6BECFEDFADD /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 225F2BE3C92417E7E02AD7B271832A06 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		094ED1211626E44658BCE20A562008C3 /* NSObject+FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D3A31096EC839D6EFAB6587757BDDD1 /* NSObject+FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F3DF5C3BEFCC9838B53C37735B414BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3F0B49838475CB686323071439CA1A /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C2ACE491AF038A08F9F1F9D0C4D2AB /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		153F52868440EF561C761D3A929E8413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		16A56F7A6E2AFE504DEC2C768660B409 /* KVOController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFFC97F2DB7BCA67FE02CA58B30189A /* KVOController-dummy.m */; };
+		1A61C910DACFCF8EB29281ED3DA0B81A /* FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = D84B19EFCE691A83D2AB11A4C9BB99A3 /* FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F638B055E132B553D01B41CC3FEBE4B /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38E0CD63021889EE46E1A6B9FA0415F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		430E7B58F90868A49F93556DD3D15CF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		432FA22864D148EBD4CB22F55AB68004 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24150C38AFEA6E450D46CECC856105E9 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CCEC39C63F2EEA616AD0BB38AFC812C7 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AB9F7C7A17F66395CB1941F8EB0BCF /* MASCompositeConstraint.m */; };
+		59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A953343DE278F0913E5C74A38BCBAE37 /* MASConstraint.m */; };
+		5C58FFBAAB6AF390813CBAFD3DD4B97C /* Pods-KVO-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71CC934B9937786DB5F7DD38717ADBBC /* Pods-KVO-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E3E20ED69923AF65ED92CE43DC97BFB /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1F538683D0FD117D5073ED417D9C97 /* NSObject+FBKVOController.m */; };
+		5EF4005FEC65BC997748AB46617ADD3C /* KVOController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 617C5C05CAEFE9F9E3B6E7053C00164E /* KVOController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8D081C023C6C24A1B07DF14185DD86 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F63C1F5BA8F1D8BC5FB88E7B9CF6E111 /* MASLayoutConstraint.m */; };
+		73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1182C6A39E7ED9BD08383143BD90A1 /* MASConstraintMaker.m */; };
+		756DF24546C7D91459DCADC8F1C98660 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DB145FA975C0AA14C98AB2E3F00A8918 /* MASViewConstraint.m */; };
+		75DDA6C4B1C2D744D9CD65A5ED42C54F /* KVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEBDAF7B8A3E8BA3AF98DBCF9C52347 /* KVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C3933D336543D04D19A2613B04D3CC2 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B07D990C22B4235460832A8900B256F /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A6EEF68E7625AB66A3A8DED1594F88F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB7320555D9A893CF580970475D43C0 /* ViewController+MASAdditions.m */; };
+		8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 38DAFF52059D431DC0110BE0E5831E54 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A9E0839B0C155736C63D23E28968B15 /* Pods-KVO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 955FF3BE0853CC8855C434D2663F9E96 /* Pods-KVO-dummy.m */; };
+		A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F032C38B2D4F3F6BF692B9FA7D807CB /* Masonry-dummy.m */; };
+		A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = C10A1D63016F3C33A96555FFBA0795DB /* MASViewAttribute.m */; };
+		B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F59B4AB6D07B51D79AFEA20EBA775DA /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D578B8CA170B3ACACD3AF22CDAC7754 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BF0621CFFD044624F4736D9DE176572 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 61DB2D71361C42DB852978B235668717 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C79F28346CC32E3368AE2CD527F044F /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E72EDE323AC9F92EC8A00A93AC186093 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B65BC1E9B649672A6E28307FCC38EDD0 /* NSArray+MASAdditions.m */; };
+		F4B3E44D5D2F6508BC1BB35A9FBDEC70 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7509863EACB8FE0DB4DBE00C50FBDDA7 /* View+MASAdditions.m */; };
+		F7A846EC48CD3B2E7BBE318B7C4CD754 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2707BE1D2A3EFAA427C4344178482B /* FBKVOController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B655FBF697914149A9AE025896D76137 /* PBXContainerItemProxy */ = {
+		188A863A35442A6803869B02F4B256BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F1BB2FCBCF83B5DDB315512A21BC40B8;
 			remoteInfo = KVOController;
 		};
+		52F719668FDAEB05F81B0608750B695F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52144DE9D7255DE912490FF5A806573;
+			remoteInfo = Masonry;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01738607E1D1B3E5BB45053E2BFF5983 /* Pods-KVO.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KVO.modulemap"; sourceTree = "<group>"; };
+		0A1F538683D0FD117D5073ED417D9C97 /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FBKVOController.m"; path = "FBKVOController/NSObject+FBKVOController.m"; sourceTree = "<group>"; };
 		0A9F18D0F07BEF6CDECB1603A54D158F /* Pods-KVO-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KVO-acknowledgements.markdown"; sourceTree = "<group>"; };
-		288C2F84E2205FEFFA7FC9232B435D24 /* KVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVOController.h; path = FBKVOController/KVOController.h; sourceTree = "<group>"; };
-		35BF8E8E19B99C9C7B60FEDA588F16C1 /* KVOController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KVOController.modulemap; sourceTree = "<group>"; };
-		56D30A3DAADD94C4AAE7DC28EA17C34D /* KVOController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KVOController.framework; path = KVOController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EF8BF57D2681724705F2682A41CBA99 /* KVOController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KVOController.framework; path = KVOController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F032C38B2D4F3F6BF692B9FA7D807CB /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		13AB9F7C7A17F66395CB1941F8EB0BCF /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		1EF98DD093E1EBED5B9037551B8C7111 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F638B055E132B553D01B41CC3FEBE4B /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		225F2BE3C92417E7E02AD7B271832A06 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		24150C38AFEA6E450D46CECC856105E9 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		383A3F8C59CB225344C81464C1922936 /* KVOController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KVOController.modulemap; sourceTree = "<group>"; };
+		38DAFF52059D431DC0110BE0E5831E54 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		3D3A31096EC839D6EFAB6587757BDDD1 /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FBKVOController.h"; path = "FBKVOController/NSObject+FBKVOController.h"; sourceTree = "<group>"; };
+		4C2707BE1D2A3EFAA427C4344178482B /* FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBKVOController.m; path = FBKVOController/FBKVOController.m; sourceTree = "<group>"; };
+		4C3933D336543D04D19A2613B04D3CC2 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		5BF0621CFFD044624F4736D9DE176572 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		5C79F28346CC32E3368AE2CD527F044F /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		5D578B8CA170B3ACACD3AF22CDAC7754 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		617C5C05CAEFE9F9E3B6E7053C00164E /* KVOController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-umbrella.h"; sourceTree = "<group>"; };
+		61DB2D71361C42DB852978B235668717 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		626A48E1D37DC864535A13AB793A7CB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64854F8D3188E09775644070644AEBB0 /* FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBKVOController.m; path = FBKVOController/FBKVOController.m; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6989617885C5F756C795B67AF1855CE7 /* KVOController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-prefix.pch"; sourceTree = "<group>"; };
-		709037827DFC3EACFB9D4D693DD851C7 /* KVOController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVOController.xcconfig; sourceTree = "<group>"; };
+		6563145CBDCC0071A79271BE7DBEAAAE /* KVOController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-prefix.pch"; sourceTree = "<group>"; };
+		69C2ACE491AF038A08F9F1F9D0C4D2AB /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		6F59B4AB6D07B51D79AFEA20EBA775DA /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		71CC934B9937786DB5F7DD38717ADBBC /* Pods-KVO-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KVO-umbrella.h"; sourceTree = "<group>"; };
-		7463ECEB2FEC8B4A2911D8B6C960F4D8 /* Pods_KVO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KVO.framework; path = "Pods-KVO.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C560E8B081BFC4261588FDE18BD42C6 /* KVOController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-umbrella.h"; sourceTree = "<group>"; };
+		7509863EACB8FE0DB4DBE00C50FBDDA7 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		7FE3E034BDCDC8DC66183E4650A6F047 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		870C27ACC647339B0CDA2E6580929935 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B07D990C22B4235460832A8900B256F /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		8D37054D6428A914DBF85CF007326485 /* Pods_KVO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KVO.framework; path = "Pods-KVO.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB7320555D9A893CF580970475D43C0 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		8FFFC97F2DB7BCA67FE02CA58B30189A /* KVOController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVOController-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		955FF3BE0853CC8855C434D2663F9E96 /* Pods-KVO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KVO-dummy.m"; sourceTree = "<group>"; };
+		9B8D081C023C6C24A1B07DF14185DD86 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		A60C20AABE6D24C4C17D22B9FC6EDD0F /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		A953343DE278F0913E5C74A38BCBAE37 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		B5FFA5D1047D02ADFCDEFC2CC1018A2C /* Pods-KVO-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KVO-acknowledgements.plist"; sourceTree = "<group>"; };
-		C504C1B71AA82687D7FCB6BDB8B2412F /* KVOController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVOController-dummy.m"; sourceTree = "<group>"; };
-		CB9DEFB0F0EE441F9EE90AA1000F9D1E /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FBKVOController.h"; path = "FBKVOController/NSObject+FBKVOController.h"; sourceTree = "<group>"; };
-		CEBF8D2B507DD62FAD8363D2D7E570B7 /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FBKVOController.m"; path = "FBKVOController/NSObject+FBKVOController.m"; sourceTree = "<group>"; };
-		E10F2ED30BF8748658339665ECCB0644 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E23A75CD7D65F6D9CD9E19B4B86B55C2 /* FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBKVOController.h; path = FBKVOController/FBKVOController.h; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B65BC1E9B649672A6E28307FCC38EDD0 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		BEDD03BB07282D0F8C03B6BECFEDFADD /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		BF1182C6A39E7ED9BD08383143BD90A1 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		C10A1D63016F3C33A96555FFBA0795DB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		CA47410D95CB081DCCCD959BAE0C6C14 /* KVOController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVOController.xcconfig; sourceTree = "<group>"; };
+		CCEC39C63F2EEA616AD0BB38AFC812C7 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		D84B19EFCE691A83D2AB11A4C9BB99A3 /* FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBKVOController.h; path = FBKVOController/FBKVOController.h; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D945E31D28E6D3883F84A22A9FFBC98B /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Masonry.modulemap; sourceTree = "<group>"; };
+		DB145FA975C0AA14C98AB2E3F00A8918 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		E73B527AC059FFE8BB273B81FF088A70 /* Pods-KVO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVO.debug.xcconfig"; sourceTree = "<group>"; };
 		E83A1C1AA0036B7F1A6AB5E57B0FC6FF /* Pods-KVO-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KVO-resources.sh"; sourceTree = "<group>"; };
+		EE3F0B49838475CB686323071439CA1A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		F09DCE708AA83760B7D772B0CDCC7ADE /* Pods-KVO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVO.release.xcconfig"; sourceTree = "<group>"; };
 		F3925AB7E6C563EE6D77ACA17DFA38AD /* Pods-KVO-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KVO-frameworks.sh"; sourceTree = "<group>"; };
+		F63C1F5BA8F1D8BC5FB88E7B9CF6E111 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		F920B620E4D7470F2AF2ACDF7EDDD9DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9C08D06E0826FB1B2616C153A0F0D12 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		FEEBDAF7B8A3E8BA3AF98DBCF9C52347 /* KVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVOController.h; path = FBKVOController/KVOController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1A4D5A0BB90AC1C743204FC8E901D14B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430E7B58F90868A49F93556DD3D15CF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5DC0F2B042C498212CC27D9F3F40E482 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -67,11 +144,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8164EF3074F20912DC9F33953E8AAED0 /* Frameworks */ = {
+		F6EC657AC5A7BEE9A3D288B582F4C5E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4A3A6DA91ED346349AD3599BC080ECE /* Foundation.framework in Frameworks */,
+				432FA22864D148EBD4CB22F55AB68004 /* Foundation.framework in Frameworks */,
+				38E0CD63021889EE46E1A6B9FA0415F5 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +162,20 @@
 				1A4C22ABCD84CA02E9A928000FB01AB2 /* Pods-KVO */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		12B23CF389314F4F12ADAA7361877198 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F920B620E4D7470F2AF2ACDF7EDDD9DA /* Info.plist */,
+				D945E31D28E6D3883F84A22A9FFBC98B /* Masonry.modulemap */,
+				A60C20AABE6D24C4C17D22B9FC6EDD0F /* Masonry.xcconfig */,
+				0F032C38B2D4F3F6BF692B9FA7D807CB /* Masonry-dummy.m */,
+				F9C08D06E0826FB1B2616C153A0F0D12 /* Masonry-prefix.pch */,
+				24150C38AFEA6E450D46CECC856105E9 /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
 		1A4C22ABCD84CA02E9A928000FB01AB2 /* Pods-KVO */ = {
@@ -104,86 +196,123 @@
 			path = "Target Support Files/Pods-KVO";
 			sourceTree = "<group>";
 		};
-		381815039E10B745F3C18ABBE8F86E13 /* Products */ = {
+		3BD80145F3E67E565B86C5854B86F16A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				56D30A3DAADD94C4AAE7DC28EA17C34D /* KVOController.framework */,
-				7463ECEB2FEC8B4A2911D8B6C960F4D8 /* Pods_KVO.framework */,
+				870C27ACC647339B0CDA2E6580929935 /* Info.plist */,
+				383A3F8C59CB225344C81464C1922936 /* KVOController.modulemap */,
+				CA47410D95CB081DCCCD959BAE0C6C14 /* KVOController.xcconfig */,
+				8FFFC97F2DB7BCA67FE02CA58B30189A /* KVOController-dummy.m */,
+				6563145CBDCC0071A79271BE7DBEAAAE /* KVOController-prefix.pch */,
+				617C5C05CAEFE9F9E3B6E7053C00164E /* KVOController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KVOController";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4DFB4900C7CA066C838799E7FCE7A8FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EF8BF57D2681724705F2682A41CBA99 /* KVOController.framework */,
+				1EF98DD093E1EBED5B9037551B8C7111 /* Masonry.framework */,
+				8D37054D6428A914DBF85CF007326485 /* Pods_KVO.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7898560E0ABFD12636E55A57EF6C68FC /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				38DAFF52059D431DC0110BE0E5831E54 /* MASCompositeConstraint.h */,
+				13AB9F7C7A17F66395CB1941F8EB0BCF /* MASCompositeConstraint.m */,
+				5BF0621CFFD044624F4736D9DE176572 /* MASConstraint.h */,
+				A953343DE278F0913E5C74A38BCBAE37 /* MASConstraint.m */,
+				CCEC39C63F2EEA616AD0BB38AFC812C7 /* MASConstraint+Private.h */,
+				8B07D990C22B4235460832A8900B256F /* MASConstraintMaker.h */,
+				BF1182C6A39E7ED9BD08383143BD90A1 /* MASConstraintMaker.m */,
+				4C3933D336543D04D19A2613B04D3CC2 /* MASLayoutConstraint.h */,
+				F63C1F5BA8F1D8BC5FB88E7B9CF6E111 /* MASLayoutConstraint.m */,
+				61DB2D71361C42DB852978B235668717 /* Masonry.h */,
+				7FE3E034BDCDC8DC66183E4650A6F047 /* MASUtilities.h */,
+				9B8D081C023C6C24A1B07DF14185DD86 /* MASViewAttribute.h */,
+				C10A1D63016F3C33A96555FFBA0795DB /* MASViewAttribute.m */,
+				225F2BE3C92417E7E02AD7B271832A06 /* MASViewConstraint.h */,
+				DB145FA975C0AA14C98AB2E3F00A8918 /* MASViewConstraint.m */,
+				5D578B8CA170B3ACACD3AF22CDAC7754 /* NSArray+MASAdditions.h */,
+				B65BC1E9B649672A6E28307FCC38EDD0 /* NSArray+MASAdditions.m */,
+				5C79F28346CC32E3368AE2CD527F044F /* NSArray+MASShorthandAdditions.h */,
+				69C2ACE491AF038A08F9F1F9D0C4D2AB /* NSLayoutConstraint+MASDebugAdditions.h */,
+				EE3F0B49838475CB686323071439CA1A /* NSLayoutConstraint+MASDebugAdditions.m */,
+				BEDD03BB07282D0F8C03B6BECFEDFADD /* View+MASAdditions.h */,
+				7509863EACB8FE0DB4DBE00C50FBDDA7 /* View+MASAdditions.m */,
+				6F59B4AB6D07B51D79AFEA20EBA775DA /* View+MASShorthandAdditions.h */,
+				1F638B055E132B553D01B41CC3FEBE4B /* ViewController+MASAdditions.h */,
+				8DB7320555D9A893CF580970475D43C0 /* ViewController+MASAdditions.m */,
+				12B23CF389314F4F12ADAA7361877198 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D8AB05DD32FB26FEB036F4D320D7BB2B /* Pods */,
-				381815039E10B745F3C18ABBE8F86E13 /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				E62EB69230347CB84DC0FCE6294974A3 /* Pods */,
+				4DFB4900C7CA066C838799E7FCE7A8FF /* Products */,
 				05A312EB2266CC4DAD4963F755A8CFF1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		854EEC2803ABF781253E1D170B2B84DB /* KVOController */ = {
+		D4C8AE802A3B424E6A9590851D87841F /* KVOController */ = {
 			isa = PBXGroup;
 			children = (
-				E23A75CD7D65F6D9CD9E19B4B86B55C2 /* FBKVOController.h */,
-				64854F8D3188E09775644070644AEBB0 /* FBKVOController.m */,
-				288C2F84E2205FEFFA7FC9232B435D24 /* KVOController.h */,
-				CB9DEFB0F0EE441F9EE90AA1000F9D1E /* NSObject+FBKVOController.h */,
-				CEBF8D2B507DD62FAD8363D2D7E570B7 /* NSObject+FBKVOController.m */,
-				E7A9B88AE20738220262ABAD8C31B393 /* Support Files */,
+				D84B19EFCE691A83D2AB11A4C9BB99A3 /* FBKVOController.h */,
+				4C2707BE1D2A3EFAA427C4344178482B /* FBKVOController.m */,
+				FEEBDAF7B8A3E8BA3AF98DBCF9C52347 /* KVOController.h */,
+				3D3A31096EC839D6EFAB6587757BDDD1 /* NSObject+FBKVOController.h */,
+				0A1F538683D0FD117D5073ED417D9C97 /* NSObject+FBKVOController.m */,
+				3BD80145F3E67E565B86C5854B86F16A /* Support Files */,
 			);
 			name = KVOController;
 			path = KVOController;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		E62EB69230347CB84DC0FCE6294974A3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		D8AB05DD32FB26FEB036F4D320D7BB2B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				854EEC2803ABF781253E1D170B2B84DB /* KVOController */,
+				D4C8AE802A3B424E6A9590851D87841F /* KVOController */,
+				7898560E0ABFD12636E55A57EF6C68FC /* Masonry */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		E7A9B88AE20738220262ABAD8C31B393 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E10F2ED30BF8748658339665ECCB0644 /* Info.plist */,
-				35BF8E8E19B99C9C7B60FEDA588F16C1 /* KVOController.modulemap */,
-				709037827DFC3EACFB9D4D693DD851C7 /* KVOController.xcconfig */,
-				C504C1B71AA82687D7FCB6BDB8B2412F /* KVOController-dummy.m */,
-				6989617885C5F756C795B67AF1855CE7 /* KVOController-prefix.pch */,
-				7C560E8B081BFC4261588FDE18BD42C6 /* KVOController-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/KVOController";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		488055E8683EB1AEF3C07000F8ADA1B2 /* Headers */ = {
+		1036282F9EDAF175D796DD9DC9923F98 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4B792C133C9298C27D82D40CACDA2F6 /* Pods-KVO-umbrella.h in Headers */,
+				5C58FFBAAB6AF390813CBAFD3DD4B97C /* Pods-KVO-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,25 +327,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F3E9930C736C01D12F5733EFD1F0A948 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */,
+				4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */,
+				C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */,
+				88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */,
+				7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */,
+				457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */,
+				CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */,
+				04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */,
+				636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */,
+				091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */,
+				C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */,
+				D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */,
+				B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */,
+				2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		902CEC4C22A4EF73CDF3D3824B99D75A /* Pods-KVO */ = {
+		66A88D105A3F9317050F88260A628318 /* Pods-KVO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE905DA979C306C2565B6EFA1E8CD204 /* Build configuration list for PBXNativeTarget "Pods-KVO" */;
+			buildConfigurationList = 92FA0A4C1C87F1EE2EBBE33EDDA48876 /* Build configuration list for PBXNativeTarget "Pods-KVO" */;
 			buildPhases = (
-				E7312B765135CF95F8D20CADB755E636 /* Sources */,
-				8164EF3074F20912DC9F33953E8AAED0 /* Frameworks */,
-				488055E8683EB1AEF3C07000F8ADA1B2 /* Headers */,
+				A53D26211A88D0F2F2B56F2E3E638EF4 /* Sources */,
+				1A4D5A0BB90AC1C743204FC8E901D14B /* Frameworks */,
+				1036282F9EDAF175D796DD9DC9923F98 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AF47D147D8273AD664E9EB5D46A1033C /* PBXTargetDependency */,
+				C031A60A00BF151B796EF5E3D9C53DA4 /* PBXTargetDependency */,
+				39A66A6A5F0F1B50103FBCD38BA928CD /* PBXTargetDependency */,
 			);
 			name = "Pods-KVO";
 			productName = "Pods-KVO";
-			productReference = 7463ECEB2FEC8B4A2911D8B6C960F4D8 /* Pods_KVO.framework */;
+			productReference = 8D37054D6428A914DBF85CF007326485 /* Pods_KVO.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D52144DE9D7255DE912490FF5A806573 /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D024184BD368B565F3B6257DF3C605 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				00A62ED60FF8A98AB74C8F2CECD850BA /* Sources */,
+				F6EC657AC5A7BEE9A3D288B582F4C5E9 /* Frameworks */,
+				F3E9930C736C01D12F5733EFD1F0A948 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1EF98DD093E1EBED5B9037551B8C7111 /* Masonry.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F1BB2FCBCF83B5DDB315512A21BC40B8 /* KVOController */ = {
@@ -233,7 +403,7 @@
 			);
 			name = KVOController;
 			productName = KVOController;
-			productReference = 56D30A3DAADD94C4AAE7DC28EA17C34D /* KVOController.framework */;
+			productReference = 0EF8BF57D2681724705F2682A41CBA99 /* KVOController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -253,22 +423,41 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 381815039E10B745F3C18ABBE8F86E13 /* Products */;
+			productRefGroup = 4DFB4900C7CA066C838799E7FCE7A8FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F1BB2FCBCF83B5DDB315512A21BC40B8 /* KVOController */,
-				902CEC4C22A4EF73CDF3D3824B99D75A /* Pods-KVO */,
+				D52144DE9D7255DE912490FF5A806573 /* Masonry */,
+				66A88D105A3F9317050F88260A628318 /* Pods-KVO */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E7312B765135CF95F8D20CADB755E636 /* Sources */ = {
+		00A62ED60FF8A98AB74C8F2CECD850BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90D2815FC55158FF28F894AE14D3E45A /* Pods-KVO-dummy.m in Sources */,
+				53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */,
+				59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */,
+				73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */,
+				6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */,
+				A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */,
+				A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */,
+				756DF24546C7D91459DCADC8F1C98660 /* MASViewConstraint.m in Sources */,
+				E72EDE323AC9F92EC8A00A93AC186093 /* NSArray+MASAdditions.m in Sources */,
+				0F3DF5C3BEFCC9838B53C37735B414BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				F4B3E44D5D2F6508BC1BB35A9FBDEC70 /* View+MASAdditions.m in Sources */,
+				8A6EEF68E7625AB66A3A8DED1594F88F /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53D26211A88D0F2F2B56F2E3E638EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9E0839B0C155736C63D23E28968B15 /* Pods-KVO-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,11 +474,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AF47D147D8273AD664E9EB5D46A1033C /* PBXTargetDependency */ = {
+		39A66A6A5F0F1B50103FBCD38BA928CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = D52144DE9D7255DE912490FF5A806573 /* Masonry */;
+			targetProxy = 52F719668FDAEB05F81B0608750B695F /* PBXContainerItemProxy */;
+		};
+		C031A60A00BF151B796EF5E3D9C53DA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KVOController;
 			target = F1BB2FCBCF83B5DDB315512A21BC40B8 /* KVOController */;
-			targetProxy = B655FBF697914149A9AE025896D76137 /* PBXContainerItemProxy */;
+			targetProxy = 188A863A35442A6803869B02F4B256BD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -343,45 +538,9 @@
 			};
 			name = Debug;
 		};
-		289A877A7AD20BA866515BBB2B6BE1F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F09DCE708AA83760B7D772B0CDCC7ADE /* Pods-KVO.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-KVO/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KVO/Pods-KVO.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_KVO;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		3184800F5117F3DDC4814B7D8D26FB31 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 709037827DFC3EACFB9D4D693DD851C7 /* KVOController.xcconfig */;
+			baseConfigurationReference = CA47410D95CB081DCCCD959BAE0C6C14 /* KVOController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -456,40 +615,43 @@
 			};
 			name = Release;
 		};
-		D34F158063FAA562382755E073150774 /* Debug */ = {
+		6F75BB01FF4274E50BF345DEBD94500B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 709037827DFC3EACFB9D4D693DD851C7 /* KVOController.xcconfig */;
+			baseConfigurationReference = F09DCE708AA83760B7D772B0CDCC7ADE /* Pods-KVO.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KVOController/KVOController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KVOController/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-KVO/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KVOController/KVOController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = KVOController;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KVO/Pods-KVO.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KVO;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		DFC3912E1CC43D8561F8A6F97690BA3C /* Debug */ = {
+		7FCBD3155E7BBCA07014B479A3FABC77 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E73B527AC059FFE8BB273B81FF088A70 /* Pods-KVO.debug.xcconfig */;
 			buildSettings = {
@@ -525,9 +687,117 @@
 			};
 			name = Debug;
 		};
+		80410A9A281E9B87CE0AE274ED819AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A60C20AABE6D24C4C17D22B9FC6EDD0F /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D34F158063FAA562382755E073150774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA47410D95CB081DCCCD959BAE0C6C14 /* KVOController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KVOController/KVOController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVOController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KVOController/KVOController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KVOController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7F4B6B9A8E53E1F8A7F6D0F0D708EBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A60C20AABE6D24C4C17D22B9FC6EDD0F /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		02D024184BD368B565F3B6257DF3C605 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80410A9A281E9B87CE0AE274ED819AFE /* Debug */,
+				F7F4B6B9A8E53E1F8A7F6D0F0D708EBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -537,20 +807,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		92FA0A4C1C87F1EE2EBBE33EDDA48876 /* Build configuration list for PBXNativeTarget "Pods-KVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FCBD3155E7BBCA07014B479A3FABC77 /* Debug */,
+				6F75BB01FF4274E50BF345DEBD94500B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C22E59EB39161F1F43C742A0638E1306 /* Build configuration list for PBXNativeTarget "KVOController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D34F158063FAA562382755E073150774 /* Debug */,
 				3184800F5117F3DDC4814B7D8D26FB31 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DE905DA979C306C2565B6EFA1E8CD204 /* Build configuration list for PBXNativeTarget "Pods-KVO" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DFC3912E1CC43D8561F8A6F97690BA3C /* Debug */,
-				289A877A7AD20BA866515BBB2B6BE1F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

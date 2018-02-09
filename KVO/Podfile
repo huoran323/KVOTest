@@ -4,5 +4,6 @@ use_frameworks!
 target ‘KVO’ do
 
 pod 'KVOController'
+pod 'Masonry'
 
 end
